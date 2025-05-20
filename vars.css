@@ -1,0 +1,263 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --fuschia-100: #ef5da8;
+  --fuschia-80: #f178b6;
+  --fuschia-60: #fcddec;
+  --iris-100: #5d5fef;
+  --iris-80: #7879f1;
+  --iris-60: #a5a6f6;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-gray-chateau: #9ca3af;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-pale-sky: #6b7280;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-athens-gray: #f8f5f2;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-antique-brass: #c87f65;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-antique-brass: #c27c54;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-athens-gray: #f8f5f2;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-cello: #1d3c58;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-cello-90: rgba(
+    29,
+    60,
+    88,
+    0.9
+  );
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-congress-blue: #004182;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-fantasy: #fdfbf9;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-nomad: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    linear-gradient(to left, #b8aca1, #b8aca1);
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-oxford-blue: #374151;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-river-bed: #4b5563;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-spring-wood: #f8f5f2;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-white: #ffffff;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-white-02: rgba(
+    255,
+    255,
+    255,
+    0
+  );
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-white-10: rgba(
+    255,
+    255,
+    255,
+    0.1
+  );
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-white-70: rgba(
+    255,
+    255,
+    255,
+    0.7
+  );
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-white-90: rgba(
+    255,
+    255,
+    255,
+    0.9
+  );
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-white-white: linear-gradient(
+      to left,
+      #ffffff,
+      #ffffff
+    ),
+    linear-gradient(to left, #ffffff, #ffffff);
+
+  /* Fonts */
+  --header-1-font-family: WorkSans-Bold, sans-serif;
+  --header-1-font-size: 34px;
+  --header-1-line-height: normal;
+  --header-1-font-weight: 700;
+  --header-1-font-style: normal;
+  --header-2-font-family: WorkSans-Bold, sans-serif;
+  --header-2-font-size: 20px;
+  --header-2-line-height: normal;
+  --header-2-font-weight: 700;
+  --header-2-font-style: normal;
+  --body-font-family: WorkSans-Regular, sans-serif;
+  --body-font-size: 13px;
+  --body-line-height: normal;
+  --body-font-weight: 400;
+  --body-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-playfair-display-regular-font-family: PlayfairDisplay-Regular,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-playfair-display-regular-font-size: 20px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-playfair-display-regular-line-height: 28px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-playfair-display-regular-font-weight: 400;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-playfair-display-regular-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-playfair-display-regular-font-family: PlayfairDisplay-Regular,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-playfair-display-regular-font-size: 24px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-playfair-display-regular-line-height: 32px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-playfair-display-regular-font-weight: 400;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-playfair-display-regular-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-family: Inter-Regular,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-size: 16px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-line-height: 24px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-weight: 400;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-font-family: Inter-Medium,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-font-size: 16px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-line-height: 24px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-font-weight: 500;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-underline-font-family: Inter-Regular,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-underline-font-size: 16px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-underline-line-height: 24px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-underline-font-weight: 400;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-underline-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-font-family: Inter-Medium,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-font-size: 14px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-line-height: 20px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-font-weight: 500;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-font-family: Inter-Medium,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-font-size: 18px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-line-height: 28px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-font-weight: 500;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-light-font-family: Inter-Light,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-light-font-size: 24px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-light-line-height: 32px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-light-font-weight: 300;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-light-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-family: Inter-Regular,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-size: 18px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-line-height: 29.25px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-weight: 400;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-family: Inter-Regular,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-size: 18px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-line-height: 28px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-weight: 400;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-family: Inter-Regular,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-size: 14px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-line-height: 20px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-weight: 400;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-italic-font-family: Inter-Italic,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-italic-font-size: 18px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-italic-line-height: 29.25px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-italic-font-weight: 400;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-italic-font-style: italic;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-upper-font-family: Inter-Medium,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-upper-font-size: 12px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-upper-line-height: 16px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-upper-font-weight: 500;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-medium-upper-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-family: Inter-Regular,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-size: 16px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-line-height: 26px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-weight: 400;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-family: Inter-Regular,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-size: 12px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-line-height: 16px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-weight: 400;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-inter-regular-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-roboto-medium-font-family: Roboto-Medium,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-roboto-medium-font-size: 14px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-roboto-medium-line-height: 21px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-roboto-medium-font-weight: 500;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-roboto-medium-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-roboto-medium-underline-font-family: Roboto-Medium,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-roboto-medium-underline-font-size: 14px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-roboto-medium-underline-line-height: 21px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-roboto-medium-underline-font-weight: 500;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-roboto-medium-underline-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-roboto-regular-font-family: Roboto-Regular,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-roboto-regular-font-size: 14px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-roboto-regular-line-height: 21px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-roboto-regular-font-weight: 400;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-roboto-regular-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-input-font-family: Inter-Regular,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-input-font-size: 16px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-input-line-height: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-input-font-weight: 400;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-input-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-1-font-family: PlayfairDisplay-Medium,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-1-font-size: 48px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-1-line-height: 48px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-1-font-weight: 500;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-1-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-1-font-family: PlayfairDisplay-SemiBold,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-1-font-size: 60px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-1-line-height: 60px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-1-font-weight: 600;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-1-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-2-font-family: PlayfairDisplay-Medium,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-2-font-size: 36px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-2-line-height: 40px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-2-font-weight: 500;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-2-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-3-font-family: PlayfairDisplay-Regular,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-3-font-size: 20px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-3-line-height: 28px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-3-font-weight: 400;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-3-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-3-font-family: PlayfairDisplay-Medium,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-3-font-size: 20px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-3-line-height: 28px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-3-font-weight: 500;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-3-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-4-font-family: Inter-Medium,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-4-font-size: 16px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-4-line-height: 24px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-4-font-weight: 500;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-heading-4-font-style: normal;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-link-font-family: PlayfairDisplay-Medium,
+    sans-serif;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-link-font-size: 20px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-link-line-height: 28px;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-link-font-weight: 500;
+  --508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-semantic-link-font-style: normal;
+
+  /* Effects */
+}
+/* Figma Color Variables of your File */
+:root,
+[data-508b9c66-4b14-4de7-96c4-f4965d626062-00-2mfq1c5kyro1ospockreplitdev-mode="mode-1"] {
+  /* mode-1 */
+  --color-azure-23: #1d3c58;
+  --color-orange-59: #c87f65;
+  --color-orange-55: #c27c54;
+  --color-white-solid: #ffffff;
+  --color-grey-96: #f8f5f2;
+  --color-white-70: rgba(255, 255, 255, 0.7);
+  --color-azure-27: #374151;
+  --color-white-90: rgba(255, 255, 255, 0.9);
+  --color-azure-23-90: rgba(29, 60, 88, 0.9);
+  --color-grey-98: #fdfbf9;
+  --color-orange-68: #b8aca1;
+  --color-white-02: rgba(255, 255, 255, 0);
+  --color-azure-34: #4b5563;
+  --color-azure-23-80: rgba(29, 60, 88, 0.8);
+  --color-azure-25: #004182;
+  --color-white-10: rgba(255, 255, 255, 0.1);
+  --color-grey-46: #6b7280;
+  --color-azure-65: #9ca3af;
+}
