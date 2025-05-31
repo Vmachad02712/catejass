@@ -1836,12 +1836,12 @@
   top: 931px;
 }
 .container5 {
-  width: 896px;
-  height: 280px;
-  max-width: var(--width-896, 896px);
-  position: absolute;
-  left: 512px;
-  top: 96px;
+  max-width: 896px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 20px;
+  position: relative;
+  z-index: 1;
 }
 .heading-2-agende-sua-sess-o {
   color: var(--color-white-solid, #ffffff);
