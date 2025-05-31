@@ -1394,14 +1394,13 @@
   left: 0.01px;
   top: 626.97px;
 }
-.section6 {
+section6 {
   background: #c9bfb7;
-  padding: 80px 0px 80px 0px;
-  width: 1920px;
-  height: 612px;
-  position: absolute;
-  left: 0px;
-  top: 319.25px;
+  padding: 80px 0;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 100px; /* Ajuste conforme necessário */
 }
 .container4 {
   width: 896px;
@@ -2020,12 +2019,10 @@
 }
 .footer {
   background: var(--color-azure-23, #1d3c58);
-  padding: 48px 0px 48px 0px;
-  width: 1920px;
-  height: 409px;
-  position: absolute;
-  left: -6px;
-  top: 1403px;
+  padding: 48px 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
 }
 .container7 {
   width: 1280px;
