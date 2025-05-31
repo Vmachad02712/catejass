@@ -1836,12 +1836,12 @@
   top: 931px;
 }
 .container5 {
-  max-width: 896px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 60px 20px;
-  position: relative;
-  z-index: 1;
+  width: 896px;
+  height: 280px;
+  max-width: var(--width-896, 896px);
+  position: absolute;
+  left: 512px;
+  top: 96px;
 }
 .heading-2-agende-sua-sess-o {
   color: var(--color-white-solid, #ffffff);
@@ -2023,6 +2023,7 @@
   padding: 48px 0px 48px 0px;
   width: 1920px;
   height: 409px;
+  position: absolute;
   left: -6px;
   top: 1403px;
 }
@@ -2465,15 +2466,6 @@
 }
 
 /* === FAQ Responsivo === */
-
-#faq {
-  position: relative;
-  z-index: 10;
-  background-color: #fff;
-  padding: 60px 20px;
-}
-  
-
 .faq-page { padding: 40px 0; background-color: var(--gray-100); }
 .faq-page h1 { text-align: center; margin-bottom: 32px; color: var(--primary); }
 .faq-list { display: grid; grid-template-columns: 1fr; gap: 16px; }
@@ -2484,28 +2476,21 @@
   .faq-list { grid-template-columns: repeat(2,1fr); }
 }
 .footer .container7 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  gap: 20px;
-  padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
-.footer .list {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
 .footer img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
+
 .footer .text6,
 .footer .carol-tejas3,
 .footer .contato-caroltejas-gmail-com {
-  text-align: center;
+    text-align: center;
 }
