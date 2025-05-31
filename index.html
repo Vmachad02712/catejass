@@ -10,12 +10,34 @@
   
   <style>
     
-#faq, .section6 {
+/* Garante que a seção FAQ fique visível */
+.section6 {
   position: relative;
-  z-index: 2;
+  z-index: 10;
   background-color: #fff;
   padding: 60px 20px;
-  margin-top: 60px;
+}
+
+/* Corrige o rodapé */
+.footer .container7 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  text-align: left;
+  padding: 40px 20px;
+}
+
+.footer .list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer .text6,
+.footer .carol-tejas3,
+.footer .contato-caroltejas-gmail-com {
+  text-align: left;
 }
     
 </style>
@@ -328,7 +350,7 @@
         </div>
       </div>
       <div class="frame-2">
-        <div class="section6">
+        <div id="faq" class="section6">
           <div class="container4">
             <div class="heading-2-perguntas-frequentes">Perguntas Frequentes</div>
            <div class="component-32">
@@ -469,29 +491,15 @@
               <img class="component-122" src="component-121.svg" />
             </div>
             <div class="heading-3-menu">Menu</div>
+            
             <div class="list">
-
-            <div class="component-8">
               <a class="text6" href="#topo">Início</a>
+              <a class="text6" href="#sobre">Sobre</a>
+              <a class="text6" href="#jornadas">Jornadas</a>
+              <a class="text6" href="#depoimentos">Depoimentos</a>
+              <a class="text6" href="#faq">FAQ</a>
             </div>
-
-              <div class="component-82">
-                <a class="text6" href="#sobre">Sobre</a>
-              </div>
-              
-              <div class="component-83">
-                <a class="text6" href="#jornadas">Jornadas</a>
-              </div>
-              
-              <div class="component-84">
-                <a class="text6" href="#depoimentos">Depoimentos</a>
-              </div>
-              
-              <div class="component-86">
-                <a class="text6" href="#faq">FAQ</a>
-              </div>
-
-            </div>
+            
             <div class="heading-3-contato">Contato</div>
             <img class="component-123" src="component-122.svg" />
             <div class="atendimento-presencial-em-campinas-e-vinhedo-sp">
